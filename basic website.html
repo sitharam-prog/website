@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">MyLogo</a>
+            <ul class="nav-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h1>Welcome to My Website</h1>
+            <p>This is a simple website with HTML, CSS, and JavaScript.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We provide amazing web solutions.</p>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>We aim to deliver top-quality web solutions for businesses worldwide.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>To be a leading provider of innovative and efficient web technologies.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Values</h3>
+                    <p>Integrity, innovation, and customer satisfaction are at the core of what we do.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        width="100%" 
+                        height="250" 
+                        frameborder="0" 
+                        style="border:0" 
+                        src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Your+Business+Location" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms of Service</a> |
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
