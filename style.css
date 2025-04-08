@@ -117,4 +117,80 @@ footer {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+}/* Careers Section */
+#careers {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-top: 2px solid #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#careers h2, #careers h3 {
+  color: #333;
+  text-align: center;
+}
+
+#careers p {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  color: #555;
+}
+
+#jobListings {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+#jobListings li {
+  background: #fff;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-left: 4px solid #007BFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#jobListings li a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#careerForm {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#careerForm input,
+#careerForm textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#careerForm textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+#careerForm button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#careerForm button:hover {
+  background-color: #0056b3;
 }
