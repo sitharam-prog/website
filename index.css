@@ -36,11 +36,12 @@ button {
   padding: 10px;
   border: none;
   cursor: pointer;
-  margin: 10px 0;
-  width: 100%;
+  margin: 10px auto;
+  width: 50%;
   font-size: 18px;
   text-transform: uppercase;
   transition: background-color 0.2s ease;
+  display: block;
 }
 
 button:hover {

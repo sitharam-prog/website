@@ -9,7 +9,7 @@ function calculateTotal() {
   const n2 = parseFloat(n2Input.value);
   const operation = operationSelect.value;
 
-  let result = "";
+  
 
   if (isNaN(n1) || isNaN(n2)) {
     result = "Please enter valid numbers.";
